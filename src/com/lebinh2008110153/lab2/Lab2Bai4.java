@@ -6,8 +6,8 @@ public class Lab2Bai4 {
     public static void main(String[] args) {
         Scanner bienNhap = new Scanner(System.in);
         System.out.println("======================MENU======================");
-        System.out.println("1.Giai PT Bac 1");
-        System.out.println("2.Giai PT Bac 2");
+        System.out.println("1.Giai phuong trinh bac 1");
+        System.out.println("2.Giai phuong trinh bac 2");
         System.out.println("3.Tinh tien dien");
         System.out.println("====================END MENU=====================");
         System.out.println("Hay chon chuc nang: ");
