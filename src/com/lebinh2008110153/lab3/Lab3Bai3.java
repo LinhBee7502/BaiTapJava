@@ -14,7 +14,8 @@ public class Lab3Bai3 {
             System.out.printf("a[%d] = ",i);
             a[i] = scanner.nextInt();
         }
-        System.out.println("===Nhap mang hoan tat===");
+        System.out.println("Nhap mang hoan tat");
+        System.out.println("====================");
         for (int i=0;i<n-1;i++) {
             for (int j=i + 1; j<n; j++)
             if (a[i]> a[j]) {
@@ -35,7 +36,8 @@ public class Lab3Bai3 {
             }
             for (int i = 0;i<n;i++) {
             System.out.println("a[" + i + "] = " + a[i]);
-            System.out.println("===Xuat mang hoan tat===");
+            System.out.println("Xuat mang hoan tat");
+            System.out.println("======================");
             System.out.println("Gia tri nho nhat trong mang: \nMin = " + min);
             System.out.println("Tong cac so chia het cho 3: \nTong = " + tong);
             }
