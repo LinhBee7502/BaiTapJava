@@ -9,8 +9,10 @@ public class Account {
     }
     void deposit(int amount) {
         account_number += amount;
+        System.out.println("Account Number: "+account_number);
     }
     void withdraw(int amount) {
         account_balance -= amount;
+        System.out.println("Account Balance: "+account_balance);
     }
 }
