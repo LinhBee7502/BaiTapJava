@@ -1,4 +1,4 @@
-package com.lebinh2008110153.tuan04;
+package com.lebinh2008110153.lab4;
 
 public class Account {
     int account_number;

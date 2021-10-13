@@ -1,4 +1,4 @@
-package com.lebinh2008110153.tuan04;
+package com.lebinh2008110153.lab4;
 
 import java.util.Scanner;
 
