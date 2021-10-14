@@ -5,35 +5,38 @@ import java.util.Scanner;
 public class Book {
     Scanner scanner = new Scanner(System.in);
     int gianhap,giaban,soluong,namxuatban;
-    String nhaxuatban,loai;
-    void GiaNhap(int x) {
-        gianhap = x;
+    String nhaxuatban,theloai;
+    void GiaNhap() {
+        System.out.print("Gia nhap: ");
+        gianhap = scanner.nextInt() ;
     }
-    void GiaBan(int x) {
-        giaban = x;
+    void GiaBan() {
+        System.out.print("Gia ban: ");
+        giaban = scanner.nextInt() ;
     }
-    void Loai(String type) {
-        loai = type ;
+    void theLoai() {
+        System.out.print("The loai: ");
+        theloai = scanner.nextLine()   ;
     }
-    void SoLuong(int x) {
-        soluong = x;
+    void SoLuong() {
+        System.out.print("So luong: ");
+        soluong = scanner.nextInt() ;
     }
-    void NhaXuatBan(String publisher) {
-        nhaxuatban = publisher ;
+    void NhaXuatBan() {
+        System.out.print("Nha xuat ban: ");
+        nhaxuatban = scanner.nextLine() ;
     }
-    void NamXuatBan(int x) {
-        namxuatban = x;
+    void NamXuatBan() {
+        System.out.print("Nam xuat ban: ");
+        namxuatban = scanner.nextInt() ;
     }
     void bookshow() {
         System.out.println("Nha xuat ban: "+nhaxuatban);
         System.out.println("Nam xuat ban: "+namxuatban); 
         System.out.println("Gia nhap: "+gianhap);
         System.out.println("Gia ban: "+giaban);
-        System.out.println("The loai:  "+loai);
+        System.out.println("The loai:  "+theloai);
         System.out.println("So luong: "+soluong);
 
-    }
-    Book(int amount) {
-        soluong = amount;
     }
 }
