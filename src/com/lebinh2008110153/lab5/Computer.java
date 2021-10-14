@@ -6,25 +6,25 @@ public class Computer {
     Scanner scanner = new Scanner(System.in);
     int ram,nguon,ssd,hdd;
     String cpu,vga,main;
-    void getCPU(String x) {
+    void CPU(String x) {
         cpu = x;
     }
-    void getMainboard(String x) {
+    void Mainboard(String x) {
         main = x;
     }
-    void getRAM(int x) {
+    void RAM(int x) {
         ram = x;
     }
-    void getSSD(int x) {
+    void SSD(int x) {
         ssd = x;
     }
-    void getHDD(int x) {
+    void HDD(int x) {
         hdd = x;
     }
-    void getNguon(int x) {
+    void Nguon(int x) {
         nguon = x;
     }
-    void getVGA(String x) {
+    void VGA(String x) {
         vga = x;
     }
     void showComputer() {
