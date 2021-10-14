@@ -6,22 +6,22 @@ public class Book {
     Scanner scanner = new Scanner(System.in);
     int gianhap,giaban,soluong,namxuatban;
     String nhaxuatban,loai;
-    void getGiaNhap(int x) {
+    void GiaNhap(int x) {
         gianhap = x;
     }
-    void getGiaBan(int x) {
+    void GiaBan(int x) {
         giaban = x;
     }
-    void getLoai(String type) {
+    void Loai(String type) {
         loai = type ;
     }
-    void getSoLuong(int x) {
+    void SoLuong(int x) {
         soluong = x;
     }
-    void getNhaXuatBan(String publisher) {
+    void NhaXuatBan(String publisher) {
         nhaxuatban = publisher ;
     }
-    void getNamXuatBan(int x) {
+    void NamXuatBan(int x) {
         namxuatban = x;
     }
     void bookshow() {
