@@ -6,26 +6,34 @@ public class Computer {
     Scanner scanner = new Scanner(System.in);
     int ram,nguon,ssd,hdd;
     String cpu,vga,main;
-    void CPU(String x) {
-        cpu = x;
+    void CPU() {
+        System.out.print("CPU: ");
+        cpu = scanner.nextLine();
+
     }
-    void Mainboard(String x) {
-        main = x;
+    void Mainboard() {
+        System.out.print("Mainboard: ");
+        main = scanner.nextLine();
     }
-    void RAM(int x) {
-        ram = x;
+    void RAM() {
+        System.out.print("RAM: ");
+        ram = scanner.nextInt();
     }
-    void SSD(int x) {
-        ssd = x;
+    void SSD() {
+        System.out.print("SSD: ");
+        ssd = scanner.nextInt();
     }
-    void HDD(int x) {
-        hdd = x;
+    void HDD() {
+        System.out.print("HDD: ");
+        hdd = scanner.nextInt();
     }
-    void Nguon(int x) {
-        nguon = x;
+    void VGA() {
+        System.out.print("VGA: ");
+        vga = scanner.nextLine();
     }
-    void VGA(String x) {
-        vga = x;
+    void Nguon() {
+        System.out.print("Nguon: ");
+        nguon = scanner.nextInt();
     }
     void showComputer() {
         System.out.println("CPU: "+cpu);
@@ -35,7 +43,6 @@ public class Computer {
         System.out.println("HDD: "+hdd+"GB");
         System.out.println("VGA: "+vga);
         System.out.println("Nguon: "+nguon+"W");
-
     }
 }
 
