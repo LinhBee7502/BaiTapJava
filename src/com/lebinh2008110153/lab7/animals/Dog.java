@@ -1,6 +1,6 @@
 package com.lebinh2008110153.lab7.animals;
 
-public class Dog extends Animals {
+public class Dog extends Canine {
     protected void makeNoise() {
         System.out.println("\nCon cho");
         System.out.println("Gau gau");

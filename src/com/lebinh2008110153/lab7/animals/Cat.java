@@ -1,6 +1,6 @@
 package com.lebinh2008110153.lab7.animals;
 
-public class Cat extends Animals {
+public class Cat extends Feline {
     
     protected void makeNoise() {
         System.out.println("\nCon meo");
