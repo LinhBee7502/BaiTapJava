@@ -1,4 +1,4 @@
-package com.lebinh2008110153.lab7;
+package com.lebinh2008110153.lab7.animals;
 
 public class Lion extends Animals {
     protected void makeNoise() {
@@ -6,6 +6,6 @@ public class Lion extends Animals {
         System.out.println("Gru Gru");
     }
     protected void eat() {
-        System.out.println("An thit dong vat");
+        System.out.println("An thit");
     }
 }

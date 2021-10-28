@@ -1,4 +1,4 @@
-package com.lebinh2008110153.lab7;
+package com.lebinh2008110153.lab7.animals;
 
 public class Dog extends Animals {
     protected void makeNoise() {

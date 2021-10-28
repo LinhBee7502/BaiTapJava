@@ -1,4 +1,4 @@
-package com.lebinh2008110153.lab7;
+package com.lebinh2008110153.lab7.animals;
 
 public class Animals {
     protected String picture;
@@ -6,7 +6,7 @@ public class Animals {
     protected int hunger;
     protected int location;
     protected void makeNoise() {
-        System.out.println("GR GR GR");
+        System.out.println("Tieng keu");
     }
     protected void eat() {
         System.out.println("An");

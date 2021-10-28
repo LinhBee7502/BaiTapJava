@@ -1,4 +1,4 @@
-package com.lebinh2008110153.lab7;
+package com.lebinh2008110153.lab7.animals;
 
 public class AnimalsTestDrive {
     public static void main(String[] args) {
@@ -12,6 +12,7 @@ public class AnimalsTestDrive {
         Dog dog = new Dog();
         dog.makeNoise();
         dog.eat();
+        dog.chaseCat();
         dog.sleep();
         dog.roam();
 
