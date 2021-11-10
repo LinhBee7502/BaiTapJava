@@ -1,15 +1,19 @@
 package com.lebinh2008110153.lab7.animals;
 
 public class Cat extends Feline {
-    
-    protected void makeNoise() {
-        System.out.println("\nCon meo");
-        System.out.println("Meo Meo");
+    private String color;
+    @Override
+    public void makeNoise() {
+        System.out.println("Meo meo");
     }
-    protected void eat() {
-        System.out.println("An ca");
+    protected void catchMouse() {
+        System.out.println("Bat duoc may roi Jerry");
     }
-    protected void chaseButterfly() {
-        System.out.println("Duoi buom");
+    public Cat(String giong, int tuoi, String mau) {
+        setBreed(giong);
+        setAge(tuoi);
+        color = mau;
+    }
+    public Cat() {
     }
 }
